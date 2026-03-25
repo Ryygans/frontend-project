@@ -117,7 +117,7 @@ Project ini dilisensikan di bawah MIT License - silakan lihat file LICENSE untuk
 
 👩‍💻 Author
 
-Dina Illust
+Zann
 
 · GitHub: @Ryygans
 · Instagram: @ffzan_zann
