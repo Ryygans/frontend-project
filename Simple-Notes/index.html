@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Smart Notes - Aplikasi Catatan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1>📝 Smart Notes</h1>
+            <p>Catat ide, tugas, dan kegiatanmu dengan mudah</p>
+        </div>
+
+        <div class="form-container">
+            <h2 id="formTitle">Tambah Catatan Baru</h2>
+            <form id="noteForm">
+                <div class="form-group">
+                    <label for="title">Judul Catatan *</label>
+                    <input type="text" id="title" name="title" placeholder="Contoh: Belanja Bulanan" required>
+                </div>
+                <div class="form-group">
+                    <label for="content">Isi Catatan *</label>
+                    <textarea id="content" name="content" placeholder="Tulis detail catatanmu di sini..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Simpan Catatan</button>
+                    <button type="button" class="btn btn-secondary cancel-btn" id="cancelBtn" style="display: none;">Batal</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="notesContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
