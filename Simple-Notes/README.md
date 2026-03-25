@@ -132,6 +132,6 @@ Jika kamu menyukai project ini, jangan lupa ⭐️ dan share ke teman-temanmu!
 
 ---
 
-Made with 🎨 by Zann | © 2026
+Made with 🧠 by Zann | © 2026
 
 ```
